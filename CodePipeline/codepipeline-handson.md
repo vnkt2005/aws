@@ -5,4 +5,7 @@ Pre-requisite: Git
    - SecurityCredentials --> HttpGitCredentialsFor AWS CodeCommit --> Generate Credentials --> Download Credentials --> Save it on local machine <br>
 
 2. Create repository on CodeCommit.<br>
+   This repository serves as source code for AWS CodePipeline <br>
+   - CodeCommit --> Repository --> Create Repository --> Name: SampleWebApp --> Create <br>
+   - For cloning this repository to local machine click --> Clone URL <br>
 
