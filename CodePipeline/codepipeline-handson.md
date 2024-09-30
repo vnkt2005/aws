@@ -41,3 +41,5 @@ Pre-requisite: Git
       chmod +x ./install
       ./install auto
    ```
+
+7. CodeDeploy
