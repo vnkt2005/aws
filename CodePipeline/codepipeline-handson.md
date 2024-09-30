@@ -9,3 +9,10 @@ Pre-requisite: Git
    - CodeCommit --> Repository --> Create Repository --> Name: SampleWebApp --> Create <br>
    - For cloning this repository to local machine click --> Clone URL <br>
 
+3. Create a sample folder on desktop of local machine.<br>
+   - cd sample <br>
+   - git clone http:// ...<br>
+   - Provide username and pwd for Git Credential Manager <br>
+   - cd SampleWebApp<br>
+   - Now you can see the contents of Webapplication<br>
+
