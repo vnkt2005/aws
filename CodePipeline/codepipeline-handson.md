@@ -14,5 +14,23 @@ Pre-requisite: Git
    - git clone http:// ...<br>
    - Provide username and pwd for Git Credential Manager <br>
    - cd SampleWebApp<br>
+   - git status<br>
    - Now you can see the contents of Webapplication<br>
+   - git add -A<br>
+   - git commit -m "uploading"<br>
 
+4. Push code to the code repository of the codecommit.<br>
+   - push <br>
+
+5. Goto CodeCommit Repository.<br>
+   - You can view the source code here<br>
+
+6. Create an EC2 Instance <br>
+    - Name: CodePipelineInstance<br>
+    - Choose AMI Linux<br>
+    - Instance Type: t2.micro
+    - Select key pair
+    - Advanced Details --> user data -->
+   ```sh
+   hello
+   ```
