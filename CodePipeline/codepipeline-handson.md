@@ -66,6 +66,7 @@ Pre-requisite: Git
 
 
 # Troubleshooting while git clone
+```sh
 Fix aws codecommit unable to access repository (The requested URL returned error: 403) in windows
 this was tested using windows10 pro
 
@@ -81,4 +82,5 @@ git config --system -l
 
 if it has remove it by typing
 git config --system --unset credential.helper
+```
 
