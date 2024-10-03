@@ -59,4 +59,7 @@ Pre-requisite: Git
   - Deploy Provider: AWS CodeDeploy --> Region: choose --> <br>
   - Application Name: SampleApp --> Deployment Group: Sample Group --> Review --><br>
   - Create Pipeline --> source stage --> deploy stage --> should be successful<br>
-  
+
+10. Verify deployment on EC2 instance<br>
+  - Go to EC2 instance --> Public IPv Address --> Copy --> Paste it in a browser <br>
+  - See your application successfully deployed.
