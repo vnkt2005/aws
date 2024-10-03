@@ -20,7 +20,7 @@ Pre-requisite: Git
    - git commit -m "uploading"<br>
 
 4. Push code to the code repository of the codecommit.<br>
-   - push <br>
+   - git push <br>
 
 5. Goto CodeCommit Repository.<br>
    - You can view the source code here<br>
