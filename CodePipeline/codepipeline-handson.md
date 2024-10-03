@@ -63,3 +63,22 @@ Pre-requisite: Git
 10. Verify deployment on EC2 instance<br>
   - Go to EC2 instance --> Public IPv Address --> Copy --> Paste it in a browser <br>
   - See your application successfully deployed.
+
+
+# Troubleshooting while git clone
+Fix aws codecommit unable to access repository (The requested URL returned error: 403) in windows
+this was tested using windows10 pro
+
+when cloning a git this error was produced
+fatal: unable to access 'https://git-codecommit.us-east-1.amazonaws.com/v1/repos/RepositoryName': The requested URL returned error: 403
+
+to fix add the following git configuration
+git config --global credential.helper "!aws codecommit credential-helper $@"
+git config --global credential.UseHttpPath true
+
+check if git has system credential.helper by typing 
+git config --system -l
+
+if it has remove it by typing
+git config --system --unset credential.helper
+
