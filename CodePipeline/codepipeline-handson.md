@@ -50,3 +50,4 @@ Pre-requisite: Git
   - Click on CreateDeploymentGroup --> GroupName: SampleGroup <br>
   - Enter a service role: select a role --> Deployment type: in-place <br>
   - Environment configuration: Amazon EC2 instances --> Key: Name, Value: CodePipelineInstance<br>
+  - Uncheck: Load balancing --> Create deployment group <br>
