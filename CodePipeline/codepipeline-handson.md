@@ -42,4 +42,11 @@ Pre-requisite: Git
       ./install auto
    ```
 
-7. CodeDeploy
+7. CodeDeploy<br>
+  - CodeDeploy --> Applications --> Create application --> ApplicationName: SampleApp <br>
+  - --> ComputePlatform: EC2/On-Premises --Create Application
+
+8. Create Deployment Group<br>
+  - Click on CreateDeploymentGroup --> GroupName: SampleGroup <br>
+  - Enter a service role: select a role --> Deployment type: in-place <br>
+  - Environment configuration: Amazon EC2 instances --> Key: Name, Value: CodePipelineInstance<br>
