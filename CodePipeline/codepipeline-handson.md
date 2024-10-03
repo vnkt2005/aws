@@ -51,3 +51,12 @@ Pre-requisite: Git
   - Enter a service role: select a role --> Deployment type: in-place <br>
   - Environment configuration: Amazon EC2 instances --> Key: Name, Value: CodePipelineInstance<br>
   - Uncheck: Load balancing --> Create deployment group <br>
+
+9. Create code pipeline<br>
+  - Pipelines --> Create pipeline --> pipeline name: samplepipeline --><br>
+  - Next --> Source provider: select AWS CodeCommit --> Repository Name: SampleWebApp --><br>
+  - Branch: master --> Next --> Skip Build Stage --> <br>
+  - Deploy Provider: AWS CodeDeploy --> Region: choose --> <br>
+  - Application Name: SampleApp --> Deployment Group: Sample Group --> Review --><br>
+  - Create Pipeline --> source stage --> deploy stage --> should be successful<br>
+  
