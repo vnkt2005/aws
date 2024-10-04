@@ -112,3 +112,13 @@ You can then use the describe-instances command to call for the public DNS.
 How to access /var/www/html/index.html file path through
 ```
 
+# To get a password for an Amazon EC2 instance, you can use the Amazon EC2 console or the AWS CLI: 
+```sh
+Amazon EC2 console 
+Open the Amazon EC2 console and select Instances 
+Select the instance and expand the Actions dropdown list 
+Select Get Windows Password 
+Select Browse and choose your key pair file 
+Select Decrypt Password
+```
+
