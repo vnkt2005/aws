@@ -20,9 +20,13 @@ Pre-requisite: Git installed and configured on your local machine.<br>
    - Now you can see the contents of Webapplication<br>
    - git add -A<br>
    - git commit -m "uploading"<br>
-
-4. Push code to the code repository of the codecommit.<br>
+   - Push code to the code repository of the codecommit.<br>
    - git push <br>
+
+4. Create service role for Application and Deployment Group<br>
+   - IAM --> Roles --> Create Role --> Locate CodeDeploy Service --> Click on that --><br>
+   - Select your use case: CodeDeploy --> Click Next Permissions --> AWS CodeDeploy Role --> <br>
+   - Next Tags --> Next Review --> RoleName: AWSCodeDeployRole --> Create Role<br>
 
 5. Goto CodeCommit Repository.<br>
    - You can view the source code here<br>
