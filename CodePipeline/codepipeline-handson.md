@@ -95,3 +95,8 @@ if it has remove it by typing
 git config --system --unset credential.helper
 ```
 
+# CodeDeploy agent was not able to receive the lifecycle event. Check the CodeDeploy agent logs on your host and make sure the agent is running and can connect to the CodeDeploy server. View more.
+```sh
+AWS error messages may not adequately interpret the errors encountered. One likely case is iam permission issues. Make sure CodeDeploy has CodeDeployRole and your EC2 instance(s) have AmazonEC2RoleforAWSCodeDeploy.
+```
+
