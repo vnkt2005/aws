@@ -102,3 +102,9 @@ One likely case is iam permission issues.
 Make sure CodeDeploy has CodeDeployRole and your EC2 instance(s) have AmazonEC2RoleforAWSCodeDeploy.
 ```
 
+```sh
+To check if an Amazon EC2 instance has AmazonEC2RoleforAWSCodeDeploy,
+you can use the AWS CLI to get the public DNS of the instance.
+You can then use the describe-instances command to call for the public DNS.
+```
+
