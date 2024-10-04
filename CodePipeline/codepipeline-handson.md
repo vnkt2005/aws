@@ -108,3 +108,7 @@ you can use the AWS CLI to get the public DNS of the instance.
 You can then use the describe-instances command to call for the public DNS.
 ```
 
+```sh
+How to access /var/www/html/index.html file path through
+```
+
