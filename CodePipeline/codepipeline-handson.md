@@ -122,3 +122,6 @@ Select Browse and choose your key pair file
 Select Decrypt Password
 ```
 
+# How to access s3://aws-codedeploy-us-east-1/latest/install
+
+
