@@ -39,13 +39,13 @@ Pre-requisite: Git installed and configured on your local machine.<br>
     - Advanced Details --> user data -->
    ```sh
       #!/bin/bash
-      yum -y update
-      yum install -y ruby
-      yum install -y aws-cli
-      cd /home/ec2-user
-      aws s3 cp s3://aws-codedeploy-us-east-1/latest/install --region us-east-1
-      chmod +x ./install
-      ./install auto
+      sudo yum -y update
+      sudo yum install -y ruby
+      sudo yum install -y aws-cli
+      sudo cd /home/ec2-user
+      sudo aws s3 cp s3://aws-codedeploy-us-east-1/latest/install --region us-east-1
+      sudo chmod +x ./install
+      sudo ./install auto
    ```
      - launch the EC2 instance<br>
 
