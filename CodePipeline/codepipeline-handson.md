@@ -43,7 +43,7 @@ Pre-requisite: Git installed and configured on your local machine.<br>
       sudo yum install -y ruby
       sudo yum install -y aws-cli
       sudo cd /home/ec2-user
-      sudo aws s3 cp s3://aws-codedeploy-us-east-1/latest/install --region us-east-1
+      sudo wget https://aws-codedeploy-us-east-2.s3.us-east-2.amazonaws.com/latest/install
       sudo chmod +x ./install
       sudo ./install auto
    ```
