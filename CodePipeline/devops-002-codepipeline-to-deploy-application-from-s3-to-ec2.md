@@ -18,6 +18,7 @@
 <br>
   Role: AmazonEC2RoleForAWSCodeDeploy<br>
   User Data: <br>
+  
   ```sh
   #!/bin/bash
   yum -y update
