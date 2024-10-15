@@ -4,7 +4,7 @@
 3. Create an S3 bucket for your application<br>
   Source Code: index.html<br>
   S3 --> Create Bucket --> bucket name: mydemo --> bucket versioning: enable --> create bucket<br>
-  click on mydemo --> drag and drop index.html on to mydemo bucket<br>
+  click on mydemo --> drag and drop index.html from laptop on to mydemo bucket --> upload<br>
 4. Create EC2 Linux instance and install CodeDeploy agent<br>
   Role: AmazonEC2RoleForAWSCodeDeploy<br>
   User Data: <br>
