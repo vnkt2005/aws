@@ -43,6 +43,11 @@
   create deployment group
     <br>
 6. Create Pipeline<br>
+  Pipelines --> create pipeline --> pipeline name: mydemopipeline (without any spaces) --> <br>
+  service role: new service role --> check: allow to create service role --> <br>
+  next --> source provider: Amazon S3 --> bucket: mydemo --> s3 object key: index.html <br>
+  next --> skip build stage --> deploy: AWS code deploy --> application name: mydemo <br>
+  deployment group: mydemogroup --> create pipeline <br>
   <br>
 7. Verify deployment<br>
   <br>
