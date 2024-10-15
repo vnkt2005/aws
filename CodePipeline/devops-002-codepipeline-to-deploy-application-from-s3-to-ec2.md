@@ -16,4 +16,12 @@
   chmod +x ./install
   ./install auto
   ```
+5. Create application and deployment group<br>
+  Role: AWSCodeDeployRole<br>
+  - Create application<br>
+  - Create Deployment Group<br>
+6. Create Pipeline<br>
+7. Verify deployment<br>
+8. Cleanup Resources<br>
+  
 
