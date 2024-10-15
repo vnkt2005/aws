@@ -15,6 +15,7 @@
   IAM Role: mydemoec2role --> user data: copy as shown below --> expand the user data box and clear if any spaces<br>
   Next --> Add tags: Key: Name, Value: My first ec2 instance --> <br>
   Security group: Add Rule --> HTTP, Anywhere --> Review and Launch <br>
+  Select a key pair if required and acknowledge<br>
 <br>
   Role: AmazonEC2RoleForAWSCodeDeploy<br>
   User Data: <br>
@@ -32,8 +33,14 @@
 5. Create application and deployment group<br>
   Role: AWSCodeDeployRole<br>
   - Create application<br>
+  CodeDeploy --> application --> Application name: mydemoapp --> <br>
+  compute platform: EC2/On-premises --> create application <br>
     <br>
   - Create Deployment Group<br>
+  Create deployment group --> group name: mydemodeploymentgroup --> <br>
+  service role: mydemocodedeployrole --> Environment configuration : Amazon EC2 instance <br>
+  Key: Name, Value: My first instance --> Load balance: disable --> <br>
+  create deployment group
     <br>
 6. Create Pipeline<br>
   <br>
