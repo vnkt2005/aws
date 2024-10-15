@@ -10,7 +10,12 @@
   Source Code: index.html<br>
   S3 --> Create Bucket --> bucket name: mydemo --> bucket versioning: enable --> create bucket<br>
   click on mydemo --> drag and drop index.html from laptop on to mydemo bucket --> upload<br><br>
-4. Create EC2 Linux instance and install CodeDeploy agent<br><br>
+4. Create EC2 Linux instance and install CodeDeploy agent<br>
+  EC2 --> Launch Instance --> Amazon Linux --> t2 micro --> Enable: Auto assign public IP --> <br>
+  IAM Role: mydemoec2role --> user data: copy as shown below --> expand the user data box and clear if any spaces<br>
+  Next --> Add tags: Key: Name, Value: My first ec2 instance --> <br>
+  Security group: Add Rule --> HTTP, Anywhere --> Review and Launch <br>
+<br>
   Role: AmazonEC2RoleForAWSCodeDeploy<br>
   User Data: <br>
   ```sh
