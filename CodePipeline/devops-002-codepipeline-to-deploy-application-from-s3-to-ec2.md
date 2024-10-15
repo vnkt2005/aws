@@ -50,6 +50,7 @@
   deployment group: mydemogroup --> create pipeline <br>
   <br>
 7. Verify deployment<br>
+  goto EC2 instance --> copy public IP --> paste on google chrome --> view website <br>
   <br>
 8. Cleanup Resources<br>
   <br>
