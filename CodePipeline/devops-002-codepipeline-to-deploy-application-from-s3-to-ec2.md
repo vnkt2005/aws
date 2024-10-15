@@ -1,9 +1,10 @@
 # To deploy an application from AWS S3 to AWS EC2 Instance
 1. Create AWSCodeDeployRole<br>
+  
+2. Create AmazonEC2RoleForAWSCodeDeploy<br>
   IAM --> Roles --> Create role --> Use case: EC2 --> Next --> <br>
   Policy name: AmazonEC2RoleforAWSCodeDeploy --> Attach it by clicking on tick mark --> Next <br>
   Role name: mydemoec2role --> create role<br>
-2. Create AmazonEC2RoleForAWSCodeDeploy<br>
 3. Create an S3 bucket for your application<br>
   Source Code: index.html<br>
   S3 --> Create Bucket --> bucket name: mydemo --> bucket versioning: enable --> create bucket<br>
